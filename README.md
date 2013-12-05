@@ -23,16 +23,30 @@ Create a web application to calculate the cooking time for a Christmas turkey.
 
   (doing the task without a framework will give you a better understanding of how some of the frameworks operate if you need to use them in future)
 
-   [NHS]: http://www.nhs.uk/Livewell/Healthychristmas/Pages/cooking-turkey.aspx#cooking
-   [PEP333]: http://www.python.org/dev/peps/pep-0333/ "PEP-0333 Python Web Server Gateway Interface"
-   [WSGI]: http://wsgi.org
 
+## Hints
 
-##Hints
-
-* The built-in [`wsgiref`](http://docs.python.org/2/library/wsgiref.html) module is your friend!
+* The built-in [`wsgiref`][wsgiref] module is your friend!
 
 
 ## Solution
 
 You're surely not expecting me to give you that just yet! I'll try to make available by about 19:30.
+
+
+## Extra credit
+
+* Write a web app that performs a task from a previous PyPool:
+
+  * Love calculator
+  * Roman numeral conversion - [Roman to Arabic](https://gist.github.com/bloomonkey/5754968) or Arabic to Roman
+
+* Run your WSGI app under another framwework's web server (e.g. [CherryPy][CherryPy], [Tornado][Tornado]) - these are probably more suitable for production use than the server provided by [`wsgiref`][wsgiref]!
+
+
+   [NHS]: http://www.nhs.uk/Livewell/Healthychristmas/Pages/cooking-turkey.aspx#cooking
+   [PEP333]: http://www.python.org/dev/peps/pep-0333/ "PEP-0333 Python Web Server Gateway Interface"
+   [WSGI]: http://wsgi.org
+   [wsgiref]: http://docs.python.org/2/library/wsgiref.html
+   [CherryPy]: http://docs.cherrypy.org/stable/refman/wsgiserver/init.html
+   [tornado]: http://www.tornadoweb.org/en/stable/wsgi.html#wsgicontainer
