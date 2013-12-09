@@ -17,7 +17,12 @@ Create a web application to calculate the cooking time for a Christmas turkey.
   X hours YY minutes
   ```
   
-* Use the [NHS guidelines for turkey cooking time][NHS] to calculate cooking time
+* Use the following to calculate cooking time - these are base on [NHS guidelines for turkey cooking time][NHS] but having fixed the "gotchas" contained therein (if you finish early, see how many you can find there!):
+
+  * allow 45 minutes per kg plus 20 minutes for a turkey under 4.5kg
+  * allow 40 minutes per kg plus 20 minutes for a turkey of 4.5kg or more but less than 6.5kg
+  * allow 35 minutes per kg plus 20 minutes for a turkey of 6.5kg or more
+
 * Your application should comply with [PEP 333][PEP333] - [WSGI][WSGI], pronounced "whisky"
 * Use ONLY The Python standard library - DO NOT use a Python web-framework to achieve the task
 
