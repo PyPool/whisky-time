@@ -11,7 +11,7 @@ Create a web application to calculate the cooking time for a Christmas turkey.
 
 ## Specs
 
-* Your application should take the weight in kg from the path given to the web application, and return the cooking time in plain text. e.g. visiting <http://localhost/5.25> in your browser should return:
+* Your application should take the weight in kg from the path given to the web application, and return the cooking time in plain text. e.g. visiting <http://localhost:8000/5.25> in your browser should return:
 
   ```
   X hours YY minutes
