@@ -41,6 +41,10 @@ You're surely not expecting me to give you that just yet! I'll try to make avail
 
 ## Extra credit
 
+* Have the application return the result in HTML or JSON
+
+* Fix the default calculation so that the application doesn't return odd result (shorter cooking times for a larger turkeys) around the thresholds (4.5kg, 6.5kg).
+
 * Write a web app that performs a task from a previous PyPool:
 
   * Love calculator
